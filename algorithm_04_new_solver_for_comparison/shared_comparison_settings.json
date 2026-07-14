@@ -1,0 +1,15 @@
+{
+  "purpose": "Parameter lock for fair comparison with algorithms 01, 02, and 03.",
+  "n_points": 20,
+  "n_uavs": 3,
+  "horizon": 16,
+  "seeds": [2026, 2027, 2028, 2029, 2030],
+  "max_points_per_uav_per_step": 1,
+  "max_uavs_per_point_per_step": 1,
+  "max_route_distance": 22.0,
+  "energy_capacity": 160.0,
+  "energy_per_distance": 1.0,
+  "min_safe_energy": 16.0,
+  "action_definition": "one risk point per UAV per time step; trajectory is accumulated across time steps",
+  "comparison_requirement": "Algorithm 04 should keep these settings identical unless all existing algorithms are rerun with the same changed settings."
+}
